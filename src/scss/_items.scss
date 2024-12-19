@@ -1,0 +1,83 @@
+.items-main{
+    background-color : #9fc6fc;
+    padding : 50px;
+    height : 86.3vh;
+    .panel-main{
+        display : flex;
+        justify-content : center;
+        .panel-style{
+            width : 400px;
+            background-color : #FFFFFF;
+            box-shadow : 0px 0px 10px #e4dfe9;
+            border-radius : 15px;
+            padding : 20px;
+            .sub-panel-style{
+                display : flex;
+                flex-direction : column;
+                gap : 20px;
+                .title{
+                    text-align : center;
+                    font-size : 25px;
+                    font-weight : 500;
+                    color : #044489;
+                }
+                .items-list-main{
+                    display : flex;
+                    flex-direction : column;
+                    gap : 10px;
+                    .sub-items-list{
+                        display : flex;
+                        align-items: center;
+                        gap : 15px;
+                        .item-name{
+                            font-size : 16px;
+                            &.short-size{
+                                width : 100px;
+                            }
+                            &.name-size{
+                                width : 280px;
+                            }
+                            &.name-color{
+                                color : #800080;
+                                font-weight : 500;
+                            }
+                        }
+                        .quantity{
+                            width : 70px;
+                            font-size : 16px;
+                        }
+                        .css-1jk99ih-MuiInputBase-input-MuiOutlinedInput-input{
+                            padding : 3px;
+                            padding-left : 10px;
+                        }
+                    }
+                }
+                .total-amount-main{
+                    display : flex;
+                    gap : 5px;
+                    align-items : center;
+                    .total-color{
+                        color : #800080;
+                        font-size : 18px;
+                    }
+                    .amount{
+                        font-size : 20px;
+                        font-weight : 500;
+                        color : #044489;
+                    }
+                }
+                .pay-button{
+                    background-color : #044489;
+                    color : #FFFFFF;
+                    font-size : 16px;
+                    border-radius : 25px;
+                    text-align : center;
+                    height : 45px;
+                    cursor : pointer;
+                    width : 150px;
+                    align-self : center;
+                }
+            }
+        }
+    }
+}
